@@ -95,25 +95,37 @@ html, body {
     font-family: 'Oxanium';
     letter-spacing: 3px;
 }
-#divisão_um{
+#divisão_um {
     background-color: #451952;
     height: 45px;
 }
 
-.foto img{
+.sobre_mim {
+    background-color: ;
+    height: 800px;
+}
+.foto img {
     width: 400px;
     height: auto;
     border: solid
 }
 
-.foto{
-    background-color: rgba(47, 14, 165, 0.3);
+.foto {
+    background-color:;
 }
 
-#sobre{
-    color:#f39f5a
+#quem_sou {
+    color:#f39f5a;
+    font-family: '';
+    font-size: ;
 }
 
 .descrição{
-    background-color: rgba(66, 216, 166, 0.3);
+    background-color:;
+    font-family: 'Comfortaa';
+}
+
+.lista {
+    list-style: none;
+    font-size: small;
 }
