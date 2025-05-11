@@ -5,9 +5,10 @@ body{
     background-color: #2b124c;
 }
 
-html, body {
-    height: 100%;
+html {
+    scroll-behavior: smooth;
 }
+
 @font-face {
     font-family: 'Duna';
     src: url('fonts/nome/Dune_Rise.otf') format('opentype'), url('fonts/nome/Dune_Rise.ttf') format('truetype');
@@ -25,6 +26,13 @@ html, body {
 @font-face {
     font-family: 'Oxanium';
     src: url('fonts/banner/Oxanium-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Deltha';
+    src: url('fonts/topicos/Deltha.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -78,54 +86,148 @@ html, body {
     position: absolute;
 }
 
-.titulos_banner {
+.titulos-banner {
     position: absolute;
     z-index: 1;
     text-align: center;
     color: #fbe4d8;
 }
 
-.titulos_banner h1 {
+.titulos-banner h1 {
     font-family: 'Duna';
     font-size: 90px;
     margin: 5px; 
 }
 
-.titulos_banner h2 {
+.titulos-banner h2 {
     font-family: 'Oxanium';
     letter-spacing: 3px;
 }
-#divisão_um {
+#divisão-um {
     background-color: #451952;
     height: 45px;
 }
 
-.sobre_mim {
-    background-color: ;
+.container-sobre-mim {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 20px;
     height: 800px;
-}
-.foto img {
-    width: 400px;
-    height: auto;
-    border: solid
 }
 
 .foto {
-    background-color:;
-}
-
-#quem_sou {
-    color:#f39f5a;
-    font-family: '';
-    font-size: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:ed;
+    
 }
 
 .descrição{
-    background-color:;
+    background-color:bue;
+    margin-top: 40px;
+    margin-right: 120px;
     font-family: 'Comfortaa';
+    color: #fbe4d8;
 }
 
-.lista {
+.foto img {
+    width: 400px;
+    height: auto;
+    border: double #ae4459 5px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 70px 35px #ae44595e;
+    transition: transform 0.3s ease;
+}
+
+.foto img:hover {
+    transform: scale(1.01);
+}
+
+#descrição_quem-sou {
+    color:#f39f5a;
+    font-family: 'Deltha';
+    font-size: 50px;
+}
+
+.descrição_texto {
+    color: #fbe4d8;
+    font-size: x-large;
+    text-align: justify;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+.descrição_contato_lista {
+    display: grid;
+    grid-template-columns: 50% 50%;
     list-style: none;
-    font-size: small;
+    font-size: larger;
+    color: #fbe4d8;
+    letter-spacing: 2px;
+    line-height: 38px;
+    margin-top: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #ae44a086;
+    border-radius: 30px;
+}
+
+#divisão-dois {
+    background-color: #2b124c;
+    height: 10px;
+}
+
+#linha_divisão-dois {
+    background-color: #190019;
+    height: 5px;
+}
+
+#habilidades {
+    display: inline-block;
+    color: #f39f5a;
+    font-family: 'Deltha';
+    font-size: 60px;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 70px;
+    margin-bottom: -4px;
+}
+.container-habilidades {
+    background-image: url(imagens/background_habilidades.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    line-height: 40px;
+}
+.cointainer-hardskills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.cointainer-hardskills-segunda-linha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+.skill {
+    font-family: 'Comfortaa';
+    font-size: x-large;
+    text-align: center;
+    border: #ffe7e7 solid 3px;
+    background-color: #fbe4d83d;
+    padding-top: 15px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.06);
+    border-color: #b421b4;
 }
