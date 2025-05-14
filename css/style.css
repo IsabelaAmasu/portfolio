@@ -225,8 +225,7 @@ html {
     background-color: #fbe4d89d;
     width: 300px;
     border-radius: 20px;
-    padding: 15px 0;
-    padding-right: 12px;
+    padding: 15px 6px;
     max-height: 50px;
 }
 
