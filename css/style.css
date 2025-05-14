@@ -193,36 +193,157 @@ html {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 760px;
     line-height: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
 }
 .cointainer-hardskills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 40px;
+    margin: 0 78px;
 }
 
 .cointainer-hardskills-segunda-linha {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 40px;
-    margin-left: 80px;
+    margin: 0 78px;
 }
 
 .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     font-family: 'Comfortaa';
     font-size: x-large;
     text-align: center;
     border: #ffe7e7 solid 3px;
-    background-color: #fbe4d83d;
-    padding-top: 15px;
-    margin: 20px;
+    background-color: #fbe4d89d;
     width: 300px;
     border-radius: 20px;
-    transition: transform 0.3s ease;
+    padding: 15px 0;
+    padding-right: 12px;
+    max-height: 50px;
 }
 
 .skill:hover {
-    transform: scale(1.06);
     border-color: #b421b4;
 }
+
+.container-softskills {
+    text-align: justify;
+    font-family: 'Comfortaa';
+    font-size: x-large;
+    background-color: #ae4459;
+    border:#ffe7e7 solid 3px;
+    background-color: #fbe4d89d;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 78px 0 78px;
+}
+
+.container-softskills:hover {
+    border-color: #b421b4;
+}
+
+.certificados {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+
+#cursa_git {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    border: #ffe7e7 solid 3px;
+    margin-top: 40px;
+}
+
+#cursa_git:hover {
+    border-color: #b421b4;
+}
+
+#participação {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    border: #ffe7e7 solid 3px;
+    margin-top: 40px;
+}
+
+#participação:hover {
+    border-color: #b421b4;
+}
+
+.espaço {
+    background-color: #fbe4d89d;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    border: #ffe7e7 solid 3px;
+    margin-top: 40px;
+}
+
+#linha_divisão-tres {
+    background-color: #190019;
+    height: 5px;
+}
+
+.projetos {
+    background-color: #200725;
+    height: 600px;
+}
+
+#projetos {
+    display: inline-block;
+    color: #f39f5a;
+    font-family: 'Deltha';
+    font-size: 60px;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.container-projetos {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 40px 50px 0px 50px;
+     
+}
+
+#API {
+    width: 600px;
+    height: auto;
+    border: #190019 solid 5px;
+    border-radius: 2px;
+    box-shadow: #581258 0px 0px 30px 2px;
+    margin-left: 40px;
+}
+
+.textinho {
+    background-color: #f39f5a00;
+    font-family: "Comfortaa";
+}
+
+.textinho h1 {
+    font-size: x-large;
+    color: #f39f5a;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.textinho p {
+    color: #fbe4d8;
+    font-size: large;
+    text-align: justify;
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin-right: 39px;
+}
+
