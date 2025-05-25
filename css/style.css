@@ -173,6 +173,15 @@ html {
     border-radius: 30px;
 }
 
+.descrição_contato_lista a {
+    color: #fbe4d8;
+    text-decoration: none;
+}
+
+.descrição_contato_lista a:hover {
+    text-decoration: underline;
+}
+
 #linha_divisão-dois {
     background-color: #190019;
     height: 5px;
@@ -297,7 +306,7 @@ html {
 
 .projetos {
     background-color: #200725;
-    height: 600px;
+    height: 650px;
 }
 
 #projetos {
@@ -316,7 +325,7 @@ html {
      
 }
 
-#API {
+#API-video {
     width: 600px;
     height: auto;
     border: #190019 solid 5px;
@@ -346,3 +355,22 @@ html {
     margin-right: 39px;
 }
 
+#API-link {
+    text-decoration: none;
+    color: #fbe4d8;
+    font-size: large;
+    font-family: "Comfortaa";
+    background-color: #f39f5a4d;
+    border-radius: 30px;
+    padding: 6px;
+    width: 300px;
+    text-align: center;
+    align-self: start;
+    justify-self: center;
+    margin-right: 30px;
+    margin-top: -80px;
+ }
+
+ #API-link:hover {
+    text-decoration: underline;
+ }
